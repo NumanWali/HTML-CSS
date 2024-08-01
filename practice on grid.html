@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html> 
+<head> <title> grid practice </title>
+
+<style>
+  .video-pic{
+width:180px;
+height: 160px;
+margin-bottom: 0;
+  }
+  .first-line{
+    font-family: arial;
+    font-weight: bold;
+    font-size:17px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+  }
+  .channal-pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    vertical-align: top;
+    margin-top: 6px;
+    margin-left: 4px;
+   
+  }
+  .last-line{
+    color: gray;
+    font-family: arial;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .add-button{
+    color: white;
+    background-color: rgb(66, 66, 247);
+    width: 100px;
+    height: 30px;
+    border:none;
+    border-radius: 4px;
+   display: block;
+   margin-top: 10px;
+   margin-left: 5px;
+   
+  }
+  .div1{
+    display:inline-block;
+    margin-left: 10px;
+  }
+  .div2{
+    box-shadow: 3px 3px 5px rgba( .1,.2,.1,.1);
+    margin-top: 0px;
+    width:181px;
+height: 115px;
+  }
+  .numanwali-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  vertical-align: top;
+     
+  }
+  
+</style>
+</head>
+<body>
+
+<div class="numanwali-grid">
+
+  <div class="div1">
+
+    <img class="video-pic"   src="thumbnails/cat 3.jpeg">
+   
+    <div class="div2">
+      <p class="first-line"> Oliver </p>
+    
+        <img class="channal-pic"  src="thumbnails/dog 2.jpeg">
+        <p class="last-line"> 2 mutual friends </p >
+   
+   <button class="add-button"> Add Friends </button>
+    </div> 
+   
+  
+  
+  </div>
+  
+  <div class="div1">
+  
+    <img class="video-pic"   src="thumbnails/cat 2.jpg">
+   
+    <div class="div2">
+      <p class="first-line"> Mimi </p>
+    
+        <img class="channal-pic"  src="thumbnails/dog 2.jpeg">
+        <p class="last-line"> 2 mutual friends </p >
+   
+   <button class="add-button"> Add Friends </button>
+    </div> 
+   
+  </div>
+  
+  
+  <div class="div1">
+  
+    <img class="video-pic"   src="thumbnails/dog 1.jpeg">
+   
+    <div class="div2">
+      <p class="first-line"> Rex </p>
+    
+        <img class="channal-pic"  src="thumbnails/dog 2.jpeg">
+        <p class="last-line"> 2 mutual friends </p >
+   
+   <button class="add-button"> Add Friends </button>
+    </div> 
+   
+  
+  
+  </div>
+  
+
+</div>
+
+
+</body>
+</html>
